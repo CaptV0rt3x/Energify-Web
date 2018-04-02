@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link href="/api/bootstrap.css" rel="stylesheet" media="screen">
+<title>About Us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<link href="/api/bootstrap.css" rel="stylesheet" media="screen">
 </head>
 <style>
 body {
@@ -11,14 +14,12 @@ body {
   margin-bottom: 0px;
   margin-left: 0px
 }
-
 .header {
     overflow: hidden;
     background-color: #4CAF50;
     width=100%;
     height=100px;
 }
-
 .footer {
     left: 0;
     bottom: 0;
@@ -28,11 +29,17 @@ body {
     color: white;
     text-align: center;
 }
+.rotate {
+  -webkit-transform: rotate(320deg);
+  -moz-transform: rotate(320deg);
+  -o-transform: rotate(320deg);
+  -ms-transform: rotate(320deg);
+  transform: rotate(320deg);
+}
 .topnav {
   overflow: hidden;
   background-color: #333;
 }
-
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -41,13 +48,11 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-
 .topnav a:hover {
   background-color: #ddd;
   color: black;
   text-decoration: none;
 }
-
 .topnav a.active {
   background-color: #FFA500;
   color: white;
@@ -145,7 +150,7 @@ p.one {
 		<div class="col-md-3 col-sm-3 col-xs-10">
 			<div class="row section-info ourTeam-box text-center">
 				<div class="col-md-12 section1">
-					<img src="/api/img2.png">
+					<img src="/api/shannu.jpg" class="rotate">
 					</div>
 				<div class="col-md-12 section2">
 					<p>Shanmukhanatha Reddy</p><br>
